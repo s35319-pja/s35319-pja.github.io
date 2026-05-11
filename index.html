@@ -1,36 +1,72 @@
 <!DOCTYPE html>
 <html lang="pl">
-        <head>
-                <meta charset="utf-8">
-                <title>strona główna</title>
-        </head>
-        <body style="background-color:palevioletred">
-                <header style="
-                        border: 5px solid black 
-                        padding: 10px; 
+
+<head>
+        <meta charset="utf-8">
+        <title>strona główna</title>
+        <style>
+                header {
+                        border: 5px solid black;
+                        padding: 10px;
+                        background-color: black;
+                        color: palevioletred;
+                        text-align: center;
+
+                }
+
+                body {
+                        background-color: palevioletred
+
+                }
+
+                .text-panel {
+                        border: 1px solid black;
+                        margin: 5px;
+                        padding: 10px;
+                        font-family: 'courier new', courier, monospace;
+                        text-align: center;
+
+                }
+                .link{
+                       display: inline-block;
+                        border: 2px solid black;
+                        padding: 5px;
+                        margin: 5px;
+                        border-radius: 5px;
+                        text-decoration: none;
                         background-color: black;
                         color: palevioletred; 
-                        ">
-                        <h1>Dies Irae</h1>
-                </header>
+                }
+                .link:hover{
+                        background-color: white;
+                        border: 2px solid white;
+                        transition-duration: 0.5s;
+                }
+        </style>
+</head>
 
-                <div style="
-                border: 1px solid black;
-                margin: 5px;
-                padding: 10px;
-                font-family:'courier new', courier, monospace;
-                ">
+<body>
+        <header>
+                <h1>DIES IRAE</h1>
+        </header>
+
+        <a class="link" href="podstrona.html">link do podstrony</a>
+        <br>
+        <button onclick="location.href='podstrona.html'">button do podstrony</button>
+
+        <div class="text-panel">
                 <h2>LIZARD</h2>
                 <p><b> trains blablbkla </b></p>
-                </div>
-                <img src="Hoppers.jpg" alt="lizard 1" style="max-width:100%">
-                <br> 
-                <img src="grafika/Hoppersinsubfolder.jpg" alt="lizard 2" style="max-width:100%">
-                <br>
-                <img src="https://ew.com/thmb/h9GR1Bt6dGaVFnnT8sjHr3AJFSo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Hoppers-022726-04-60288b7e510d491a8f351de388dc1b29.jpg"
+        </div>
+        <img src="Hoppers.jpg" alt="lizard 1" style="max-width:100%">
+        <br>
+        <img src="grafika/Hoppersinsubfolder.jpg" alt="lizard 2" style="max-width:100%">
+        <br>
+        <img src="https://ew.com/thmb/h9GR1Bt6dGaVFnnT8sjHr3AJFSo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Hoppers-022726-04-60288b7e510d491a8f351de388dc1b29.jpg"
                 alt="lizard 3" style="max-height:100%">
-                <footer>
+        <footer>
 
-                </footer>
-        </body>
+        </footer>
+</body>
+
 </html>
