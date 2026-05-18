@@ -1,0 +1,46 @@
+ header {
+                        border: 5px solid black;
+                        padding: 10px;
+                        background-color: black;
+                        color: palevioletred;
+                        text-align: center;
+
+                }
+
+                body {
+                        background-color: palevioletred
+
+                }
+
+                .text-panel {
+                        border: 1px solid black;
+                        margin: 5px;
+                        padding: 10px;
+                        font-family: 'courier new', courier, monospace;
+                        text-align: center;
+
+                }
+                .link{
+                       display: inline-block;
+                        border: 2px solid black;
+                        padding: 5px;
+                        margin: 5px;
+                        border-radius: 5px;
+                        text-decoration: none;
+                        background-color: black;
+                        color: palevioletred; 
+                }
+                .link:hover{
+                        background-color: white;
+                        border: 2px solid white;
+                        transition-duration: 0.5s;
+                    }
+                .flexbox{
+                    display:flex;
+                    flex-wrap: wrap-reverse;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    align-content: center;
+                }
+
+                
